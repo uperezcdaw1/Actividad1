@@ -16,7 +16,9 @@ public class CalcularPeriodo {
 		calcularPeriodo("Curso Aprobado", fecha2);
 		
 		LocalDate fecha3 = LocalDate.of(1995, Month.SEPTEMBER, 18);	 
-		calcularPeriodo("Cumple", fecha2);
+		calcularPeriodo("Cumple", fecha3);
+		LocalDate fecha4 = LocalDate.of(2002, Month.JULY, 25);	 
+		calcularPeriodo("Cumple", fecha4);
 		
 	}
 	
